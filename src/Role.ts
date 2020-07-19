@@ -14,6 +14,8 @@ const enum Role {
 	Mordred,
 	BlueLancelot,
 	RedLancelot,
+
+	MaxLimit,
 }
 
 export default Role;
