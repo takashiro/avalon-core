@@ -28,5 +28,5 @@ It's a small online app to arrange role cards of the resistence: Avalon.
 
 Components
 -------------------
-1. (Avalon RESTful API)[https://github.com/takashiro/indie-avalon-server]
-2. (WeChat App)[https://github.com/takashiro/indie-avalon-wechat]
+1. [Avalon RESTful API](https://github.com/takashiro/indie-avalon-server)
+2. [WeChat App](https://github.com/takashiro/indie-avalon-wechat)
