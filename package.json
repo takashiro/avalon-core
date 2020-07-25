@@ -1,0 +1,29 @@
+{
+  "name": "@karuta/avalon",
+  "version": "0.1.0",
+  "description": "Common Modules of Avalon",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takashiro/indie-avalon.git"
+  },
+  "keywords": [
+    "Avalon",
+    "board",
+    "game"
+  ],
+  "author": "Kazuichi Takashiro",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/takashiro/indie-avalon/issues"
+  },
+  "homepage": "https://github.com/takashiro/indie-avalon#readme",
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "typescript": "^3.9.7"
+  }
+}
