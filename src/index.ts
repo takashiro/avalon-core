@@ -1,4 +1,4 @@
-export { default as LobbyStatus } from './LobbyStatus';
-export { default as Role } from './Role';
-export { default as RoleMap } from './RoleMap';
-export { default as Team } from './Team';
+export * from './LobbyStatus';
+export * from './Role';
+export * from './RoleMap';
+export * from './Team';

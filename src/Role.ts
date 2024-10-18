@@ -1,4 +1,4 @@
-const enum Role {
+export const enum Role {
 	Unknown,
 
 	Servant,

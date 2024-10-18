@@ -1,7 +1,7 @@
 import Role from './Role';
 import Team from './Team';
 
-const roleMap = new Map<Role, Team>();
+export const roleMap = new Map<Role, Team>();
 
 roleMap.set(Role.Servant, Team.Servant);
 roleMap.set(Role.Minion, Team.Minion);

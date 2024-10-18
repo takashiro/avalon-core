@@ -1,4 +1,4 @@
-interface LobbyStatus {
+export interface LobbyStatus {
 	roomNum: number;
 	roomNumLimit: number;
 }

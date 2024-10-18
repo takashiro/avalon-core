@@ -1,4 +1,4 @@
-const enum Team {
+export const enum Team {
 	Unknown,
 
 	Servant,
