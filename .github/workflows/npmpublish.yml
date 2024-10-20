@@ -16,9 +16,22 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
-      - run: npm ci
-      - run: npm run build
-      - run: npm test
-      - run: npm publish --access=public
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Test
+        run: npm test
+      - name: Publish
+        run: |
+          cd dist
+          cp ../LICENSE .
+          cp ../README.md .
+          cp ../package.json .
+          npm pkg delete scripts
+          npm pkg delete devDependencies
+          npm pkg delete files
+          npm pkg set main=index.js
+          npm publish --access=public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
